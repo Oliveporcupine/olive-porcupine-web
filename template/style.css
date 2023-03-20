@@ -55,7 +55,7 @@ body{
 a {
     text-decoration: none;
 }
-a:hoover{
+a:hover{
     color: #ff8000;
 }
 .brand button{
@@ -85,7 +85,7 @@ a:hoover{
     font-size: 2rem;
     padding-top: 0;
     cursor: pointer;
-    position:absolute;
+    position: absolute;
     right: 0.5rem;
     top: 1.5rem;
 }
