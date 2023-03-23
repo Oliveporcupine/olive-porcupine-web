@@ -45,7 +45,7 @@ function App() {
                 <ul className="products">
                     <li>
                         <div className="product">
-                            <img className="product-image" src="images/d1.jpg" alt="product">
+                            <img className="product-image" src="images/d1.jpg" alt="product"></img>
                             <div className="product-name">
                                 <a href="product.html">Slim Shirt</a>
                             </div>
@@ -56,7 +56,7 @@ function App() {
                     </li>
                     <li>
                         <div className="product">
-                            <img className="product-image" src="images/d1.jpg" alt="product">
+                            <img className="product-image" src="images/d1.jpg" alt="product"></img>
                             <div className="product-name">
                                 <a href="product.html">Slim Shirt</a>
                             </div>
@@ -67,7 +67,7 @@ function App() {
                     </li> 
                     <li>
                         <div className="product">
-                            <img className="product-image" src="images/d1.jpg" alt="product">
+                            <img className="product-image" src="images/d1.jpg" alt="product"></img>
                             <div className="product-name">
                                 <a href="product.html">Slim Shirt</a>
                             </div>
@@ -78,7 +78,7 @@ function App() {
                     </li>
                     <li>
                         <div className="product">
-                            <img className="product-image" src="images/d1.jpg" alt="product">
+                            <img className="product-image" src="images/d1.jpg" alt="product"></img>
                             <div className="product-name">
                                 <a href="product.html">Slim Shirt</a>
                             </div>
