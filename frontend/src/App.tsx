@@ -13,7 +13,7 @@ function App() {
     document.querySelector(".sidebar")?.classList.add("open");
   }
   const closeMenu = () => {
-    document.querySelector(".sidebar")?.classList.add("open");
+    document.querySelector(".sidebar")?.classList.add("close");
   }
   return (
    <Router>
