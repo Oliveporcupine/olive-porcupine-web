@@ -1,20 +1,34 @@
-
 export default {
-    products:[{
-        name:'Shirt',
-        imageUrl:'/images/d1.jpg',
+    products: [{
+        name: 'Shirt',
+        imageUrl: '/images/d1.jpg',
         price: 60,
         brand: 'Nike',
         rating: 4.5,
-        numberOfReviews: 10,
+        numOfReviews: 10,
     },
     {
-        name:'Shirt',
+        name: 'Shirt',
         imageUrl: '/images/d1.jpg',
-        price:60,
+        price: 60,
         brand: 'Nike',
         rating: 4.5,
-        numberOfReviews: 10,
-
+        numOfReviews: 10,
+    },
+    {
+        name: 'Shirt',
+        imageUrl: '/images/d1.jpg',
+        price: 60,
+        brand: 'Nike',
+        rating: 4.5,
+        numOfReviews: 10,
+    },
+    {
+        name: 'Shirt',
+        imageUrl: '/images/d1.jpg',
+        price: 60,
+        brand: 'Nike',
+        rating: 4.5,
+        numOfReviews: 10,
     }]
 }

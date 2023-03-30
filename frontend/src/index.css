@@ -52,7 +52,6 @@ body{
   justify-content: center;
   align-items: center;
 }
-
 a {
   text-decoration: none;
 }
@@ -136,8 +135,8 @@ a:hover{
 }
 .content-margined{
   margin: 1rem;
-}
-.table {
+} 
+.table{
   width: 100%;
 }
 th{
@@ -187,4 +186,24 @@ input {
   padding: 1rem;
   border: 0.1rem #c0c0c0 solid;
   border-radius: 0.5rem;
+}
+.fulfillment-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contents-margined{
+  margin: 1rem;
+} 
+.table{
+  width: 100%;
+}
+th{
+  text-align: left;
+}
+tbody > tr:nth-child(odd){
+  background-color: #f0f0f0;
+}
+.status{
+  color: #f00000;
 }

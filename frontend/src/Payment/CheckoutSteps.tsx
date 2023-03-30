@@ -10,4 +10,3 @@ function CheckoutSteps(props: any) {
 }
 
 export default CheckoutSteps;
-
