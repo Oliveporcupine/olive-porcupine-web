@@ -204,6 +204,9 @@ th{
 tbody > tr:nth-child(odd){
   background-color: #f0f0f0;
 }
-.status{
+.status-unshipped{
   color: #f00000;
+}
+.status-shipped{
+  color: #0a0a0a;
 }
