@@ -24,23 +24,20 @@ function fulfillment(){
                     <tbody>
                         {data.fulfillment.map((fulfillment)=>(
                         <tr key={fulfillment._id}>
-                            <td>{fulfillment._id}</td>
-                           if(fulfillment.status = 'unshipped') {
-                                
-                            
-                            <div className= 'status-unshipped' >
-                               
-                                <td>{fulfillment.status.toString()} </td>
-                                
+                        <td>{fulfillment._id}</td>
+                        {fulfillment.status === 'unshipped' ? (
+                        <td>
+                            <div className='status-unshipped'>
+                                {fulfillment.status.toString()}
                             </div>
-                        }
-                        else{
-                            <div className= 'status-shipped' >
-                               
-                               <td>{fulfillment.status.toString()} </td>
-                               
-                           </div>
-                        }
+                        </td>
+                        ) : (
+                        <td>
+                            <div className='status-shipped'>
+                                {fulfillment.status.toString()}
+                            </div>
+                        </td>
+                        )}
                             <td>{fulfillment.address}</td>
                             <td>{fulfillment.user.name}</td>
                             <td>{fulfillment.deliveredDateExpected}</td>
