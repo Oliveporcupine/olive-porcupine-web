@@ -13,17 +13,20 @@ type Product = {
 }
 const emptyProducts: Product [] = [];
 function Products() {
-    const [products, SetProducts]:  [Product[], (products: Product[]) => void] = useState(emptyProducts);
+    const [products, setProducts]:  [Product[], (products: Product[]) => void] 
+    = useState(emptyProducts);
+
     useEffect(() => {
-        axios.get<Product[]>("https://localhost:5001/catalog",
+        axios.get<Product[]>("https://localhost:7173/catalog",
         {
             headers: {
                 "Content-Type": "application/json",
             },
         })
-    .then((response) => SetProducts(response.data))
-    .catch((error) => console.log(error));
+        .then((response) =>setProducts(response.data))
+        .catch((error) => console.log(error));
     }, []);
+    
     return (
         <div className="content">
             <ul className="products">
